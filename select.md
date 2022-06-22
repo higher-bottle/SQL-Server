@@ -1,3 +1,7 @@
+* [chapter 01. SELECT语句](https://github.com/higher-bottle/SQL-Server/edit/main/select.md#chapter-01-select%E8%AF%AD%E5%8F%A5)
+  * [基础SELECT语句](https://github.com/higher-bottle/SQL-Server/edit/main/select.md#%E5%9F%BA%E7%A1%80select%E8%AF%AD%E5%8F%A5)
+  	* [DISTINCT](https://github.com/higher-bottle/SQL-Server/edit/main/select.md#distinct%E6%8C%87%E7%A4%BA%E6%95%B0%E6%8D%AE%E5%BA%93%E5%8F%AA%E8%BF%94%E5%9B%9E%E4%B8%8D%E5%90%8C%E7%9A%84%E5%80%BC%E5%8F%AA%E8%83%BD%E6%94%BE%E5%9C%A8%E5%88%97%E5%90%8D%E4%B9%8B%E5%89%8D%E4%B8%94%E4%BD%9C%E7%94%A8%E4%BA%8E%E6%89%80%E6%9C%89%E8%BE%93%E5%85%A5%E7%9A%84%E5%88%97)
+   	 * [TOP](https://github.com/higher-bottle/SQL-Server/edit/main/select.md#top---%E9%99%90%E5%88%B6%E8%BF%94%E5%9B%9E%E5%89%8D%E8%A1%8C)
 
 -------------------------
 chapter 01. SELECT语句
