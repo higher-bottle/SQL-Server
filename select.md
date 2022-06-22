@@ -61,10 +61,11 @@ select prod_id,prod_name ,prod_price from Products
 order by prod_price desc,prod_name;--desc只应用到直接位于其前面的列名
 
 >ex.
+```sql
 select cust_name from Customers order by cust_name desc;
 select cust_id,order_num from Orders order by cust_id,order_num desc;
 select item_price,quantity from OrderItems order by quantity desc,item_price desc;
-
+```
 
 ### WHERE子句——条件筛选
 ***where语句不能使用聚合函数***
