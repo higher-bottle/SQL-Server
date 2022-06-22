@@ -67,12 +67,13 @@ select item_price,quantity from OrderItems order by quantity desc,item_price des
 
 
 ### WHERE子句——条件筛选
-***where语句不能使用聚合函数**
+***where语句不能使用聚合函数***
 ```sql
 select prod_name,prod_price from Products
 where prod_price=3.49;
 ```
 >逻辑变量
+	
 | Syntax      | Description |
 | ----------- | ----------- |
 | =      | 等于        |
@@ -112,7 +113,7 @@ select prod_name,prod_price from Products where prod_price between 3 and 6 order
 ```
 
 ### AND/OR 高级条件筛选
-可以不断叠加 and 来添加过滤条件
+***可以不断叠加 AND 来添加过滤条件***
 ```sql
 select prod_id,prod_price,prod_name from Products
 where vend_id ='DLL01' 
@@ -157,7 +158,7 @@ where prod_price between 3 and 6
 order by prod_price desc;
 ```
 --------------------------------------
---chapter 02. 用通配符进行过滤 LIKE操作符
+chapter 02. 用通配符进行过滤 LIKE操作符
 ---------------------------------------
 *通配符搜索只用于***文本字段（字符串）***，非文本数据类型字段不能使用通配符搜索；*
 
